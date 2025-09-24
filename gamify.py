@@ -174,7 +174,7 @@ def most_fun_activity_minute(): # returns the activity that would give the most 
         else:
              return "running"
 
-def initalize():
+def initialize():
     global health_points 
     global hedons
     global star_activation
@@ -201,7 +201,7 @@ def initalize():
     star2 = False
 
 if __name__ == "__main__":
-    initalize()
+    initialize()
     perform_activity("running", 30) 
     print(get_cur_hedons()) #-20 = 10 * 2 + 20 * (-2)
     print(get_cur_health()) # 90 = 30 * 3 
